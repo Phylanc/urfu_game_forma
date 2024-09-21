@@ -76,6 +76,12 @@ public class HelloWorld : MonoBehaviour
 ## Задание 3
 ### Оформить отчет в виде документации на github (markdown-разметка).
 
+## Структура проекта
+- `README.md` - отчет и документация проекта.
+- `Задание 1` - программа "Hello World" на Python.
+- `Задание 2` - скрипт на C# для Unity.
+- `Задание 3` - markdown-разметка.
+
 ![img](3.png)
 
 
