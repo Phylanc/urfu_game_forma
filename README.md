@@ -1,7 +1,7 @@
 # АНАЛИЗ ДАННЫХ И ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ [in GameDev]
 Отчет по лабораторной работе #1 выполнил(а):
 - Суворов Денис Сергеевич
-- РИ230936
+- РИ-230936
 Отметка о выполнении заданий (заполняется студентом):
 
 | Задание | Выполнение | Баллы |
@@ -57,7 +57,6 @@ using UnityEngine;
 
 public class HelloWorld : MonoBehaviour
 {
-    // Этот метод вызывается при запуске игры
     void Start()
     {
         Debug.Log("Hello, World!");
@@ -66,17 +65,17 @@ public class HelloWorld : MonoBehaviour
 
 ```
 
-![alt text](image.png)
+![alt text](2.png)
 
 
 ## Задание 3
 ### Оформить отчет в виде документации на github (markdown-разметка).
 
-![alt text](image-2.png)
+![alt text](3.png)
 
 ## Выводы
 
-Unity был успешно поставлен, Jupiter теперь будет открываться через Anacond'у
+В ходе выполнения заданий были созданы программы "Hello World" на Python в Jupyter Notebook и на C# в Unity. Эти упражнения продемонстрировали основы программирования в разных средах разработки.
 
 ## Powered by
 
