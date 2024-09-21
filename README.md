@@ -42,7 +42,7 @@
 Ход работы:
 - Написать программу Hello World на Python с запуском в Jupiter Notebook.
 
-![alt text](image-1.png)
+![alt text](1.png)
 
 ```py
 
