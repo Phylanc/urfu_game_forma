@@ -46,7 +46,7 @@
 print('Hello World!')
 
 ```
-![alt text](1.png)
+![img](1.png)
 
 
 
@@ -68,7 +68,7 @@ public class HelloWorld : MonoBehaviour
 
 ```
 
-![alt text](2.png)
+![img](2.png)
 
 
 
@@ -76,7 +76,7 @@ public class HelloWorld : MonoBehaviour
 ## Задание 3
 ### Оформить отчет в виде документации на github (markdown-разметка).
 
-![alt text](3.png)
+![img](3.png)
 
 
 
