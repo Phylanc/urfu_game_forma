@@ -49,12 +49,8 @@ print('Hello World!')
 ![alt text](1.png)
 
 
-
 ## Задание 2
 ### Написать программу Hello World на C# с запуском на Unity. 
-
-![alt text](image.png)
-
 ```csharp
 
 using UnityEngine;
@@ -70,12 +66,13 @@ public class HelloWorld : MonoBehaviour
 
 ```
 
+![alt text](image.png)
+
+
 ## Задание 3
 ### Оформить отчет в виде документации на github (markdown-разметка).
 
 ![alt text](image-2.png)
-
-- Дело сделано
 
 ## Выводы
 
