@@ -86,6 +86,7 @@ public class HelloWorld : MonoBehaviour
 
 
 
+
 ## Выводы
 
 В ходе выполнения заданий были созданы программы "Hello World" на Python в Jupyter Notebook и на C# в Unity. Эти упражнения продемонстрировали основы программирования в разных средах разработки.
