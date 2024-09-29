@@ -82,6 +82,7 @@ public class HelloWorld : MonoBehaviour
 - `Задание 2` - скрипт на C# для Unity.
 - `Задание 3` - markdown-разметка.
 
+
 ![img](3.png)
 
 
