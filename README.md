@@ -45,7 +45,8 @@
 ![image](https://github.com/user-attachments/assets/7dc598a4-5dbc-463b-85be-c71ac981c974)
 
 
-[balance.xlsx](https://github.com/user-attachments/files/17547258/balance.xlsx)
+[Week#3 - Баланс в играх.xlsx](https://github.com/user-attachments/files/17547574/Week.3.-.xlsx)
+
 
 
 
