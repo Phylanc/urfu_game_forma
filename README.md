@@ -50,67 +50,35 @@
 
 
 ## Задание 2
-### С помощью скрипта на языке Python заполните google-таблицу данными, описывающими выбранную игровую переменную в игре “СПАСТИ РТФ:Выживание”. Средствами google-sheets визуализируйте данные в google-таблице (постройте график / диаграмму и пр.) для наглядного представления выбранной игровой величины. Опишите характер изменения этой величины, опишите недостатки в реализации этой величины (например, в игре может произойти условие наступления эксплойта) и предложите до 3-х вариантов модификации условий работы с переменной, чтобы сделать игровой опыт лучше.
+### Визуализируйте параметры оружия в таблице.Используйте шаблон таблицы для визуализации оружия игры Save RTF. Постройте примеры для следующих математических величин (см. пример в презентации):
+- Среднеквадратическое отклонение (СКО)
 
-```py
 
-import gspread
-import numpy as np
-import  random as rnd
+![Screenshot_8](https://github.com/user-attachments/assets/a3e8b26f-4efc-4225-bbae-be98b583c36a)
 
-gc = gspread.service_account(filename='unitydatasciense-437112-0856780b7dd1.json')
-sh = gc.open("UnitySheets")
-money = 0
-mon = list(range(1, 11))
-i = 0
 
-while i <= len(mon):
-    test = rnd.randint(2, 5)
-    i += 1
-    money = float(money)
-    money += test
-    sh.sheet1.update (('A' + str(i)), [[str(i)]])
-    sh.sheet1.update (('B' + str(i)), [[str(money).replace('.',',')]])
-    print(money)
 
-```
+- Разброс урона оружия
 
-![img](grafik.png)
+
+![Screenshot_9](https://github.com/user-attachments/assets/e1c31dfc-c3f1-461b-8a14-ade024ead311)
+
+
+
+- Вариативность времени отклика игрока (реакция на события)
+
+
+
+![Screenshot_10](https://github.com/user-attachments/assets/d08d72cb-8a49-490f-8f42-9fa586a4eebd)
 
 
 
 
 ## Задание 3
-### Настройте на сцене Unity воспроизведение звуковых файлов, описывающих динамику изменения выбранной переменной. Например, если выбрано здоровье главного персонажа вы можете выводить сообщения, связанные с его состоянием.
+### Решение в 80+ баллов должно визуализировать данные из google-таблицы, и с помощью Python передавать переменные в проект Unity. В Python данные также должны быть визуализированы.
 
-## Структура проекта unity
-```csharp
-void Update()
-    {
-        // Проверяем, что данные загружены и ключ существует
-        if (dataLoaded && dataset.ContainsKey("Mon_" + i.ToString()))
-        {
-            if (dataset["Mon_" + i.ToString()] <= 10 && !statusStart && i != dataset.Count)
-            {
-                StartCoroutine(PlaySelectAudioGood());
-                Debug.Log(dataset["Mon_" + i.ToString()]);
-            }
 
-            if (dataset["Mon_" + i.ToString()] > 10 && dataset["Mon_" + i.ToString()] < 100 && !statusStart && i != dataset.Count)
-            {
-                StartCoroutine(PlaySelectAudioNormal());
-                Debug.Log(dataset["Mon_" + i.ToString()]);
-            }
-
-            if (dataset["Mon_" + i.ToString()] >= 100 && !statusStart && i != dataset.Count)
-            {
-                StartCoroutine(PlaySelectAudioBad());
-                Debug.Log(dataset["Mon_" + i.ToString()]);
-            }
-        }
-    }
-
-```
+![Screenshot_6](https://github.com/user-attachments/assets/d68cebde-50fa-449d-87af-ce014ff6d174)
 
 
 ## Выводы
